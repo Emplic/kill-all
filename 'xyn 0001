@@ -1,0 +1,124 @@
+
+-- Shit ass script by `xyn 0001
+--aka Duex studios
+--                                                            {kill all script}
+-- requested by shawnjbragdon#0001
+-- game https://www.roblox.com/games/6114284453/Vibe-Hugs
+-- Exploiters are raiding this game
+-- to use keep clicking and F to make the players go back F again to function.
+if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+   msg = Instance.new("Message",workspace)
+   msg.Text = "Discord copied to cliboard fully made by `xyn 0001 (use reach sword for better experience)"
+   wait(5)
+   local SongID = "7425210788"
+   msg:Destroy()
+   else
+     
+end
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10,20,60)
+
+local L_1_ = true;
+local L_2_ = game.Players.LocalPlayer.Character.HumanoidRootPart;
+local L_3_ = L_2_.Position - Vector3.new(5, 0, 0)
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(L_4_arg1)
+    if L_4_arg1 == 'f' then
+        L_1_ = not L_1_
+    end;
+    if L_4_arg1 == 'r' then
+        L_2_ = game.Players.LocalPlayer.Character.HumanoidRootPart;
+        L_3_ = L_2_.Position - Vector3.new(5, 0, 0)
+    end
+end)
+-- to use keep clicking and F to make the players go back F again to function.
+for L_5_forvar1, L_6_forvar2 in pairs(game.Players:GetPlayers()) do
+    if L_6_forvar2 == game.Players.LocalPlayer then
+    else
+        local L_7_ = coroutine.create(function()
+            game:GetService('RunService').RenderStepped:Connect(function()
+                local L_8_, L_9_ = pcall(function()
+                    local L_10_ = L_6_forvar2.Character;
+                    if L_10_ then
+                        if L_10_:FindFirstChild("HumanoidRootPart") then
+                            if L_1_ then
+                                L_6_forvar2.Backpack:ClearAllChildren()
+                                for L_11_forvar1, L_12_forvar2 in pairs(L_10_:GetChildren()) do
+                                    if L_12_forvar2:IsA("Tool") then
+                                        L_12_forvar2:Destroy()
+                                    end
+                                end;
+                                L_10_.HumanoidRootPart.CFrame = CFrame.new(-10,21,57)
+                            end
+                        end
+                    end
+                end)
+                if L_8_ then
+                else
+                    warn("Unnormal error: "..L_9_)
+                end
+            end)
+        end)
+        coroutine.resume(L_7_)
+    end
+end;
+
+game.Players.PlayerAdded:Connect(function(L_13_arg1)   
+    if L_13_arg1 == game.Players.LocalPlayer then
+    else
+        local L_14_ = coroutine.create(function()
+            game:GetService('RunService').RenderStepped:Connect(function()
+                local L_15_, L_16_ = pcall(function()
+                    local L_17_ = L_13_arg1.Character;
+                    if L_17_ then
+                        if L_17_:FindFirstChild("HumanoidRootPart") then
+                            if L_1_ then
+                                L_13_arg1.Backpack:ClearAllChildren()
+                                for L_18_forvar1, L_19_forvar2 in pairs(L_17_:GetChildren()) do
+                                    if L_19_forvar2:IsA("Tool") then
+                                        L_19_forvar2:Destroy()
+                                    end
+                                end;
+                                L_17_.HumanoidRootPart.CFrame = CFrame.new(-10,21,57)
+                            end
+                        end
+                    end
+                end)
+                if L_15_ then
+                else
+                    warn("Unnormal error: "..L_16_)
+                end
+            end)
+        end)
+        coroutine.resume(L_14_)
+    end           
+end)
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+   wait(1)
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+   wait(1)
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+   end)
+-- to use keep clicking and F to make the players go back F again to function.
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Emplic",
+"All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Emplic",
+"All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Emplic",
+"All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Emplic",
+"All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Emplic",
+"All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Emplic",
+"All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Emplic",
+"All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Emplic",
+"All")
