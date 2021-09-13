@@ -1,5 +1,5 @@
 
--- Shit ass script by `xyn 0001
+-- Shit ass script by ! EMPLIC 9999
 --aka Duex studios
 --                                                            {kill all script}
 -- requested by shawnjbragdon#0001
@@ -8,7 +8,7 @@
 -- to use keep clicking and F to make the players go back F again to function.
 if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
    msg = Instance.new("Message",workspace)
-   msg.Text = "Discord copied to cliboard fully made by `xyn 0001 (use reach sword for better experience)"
+   msg.Text = "Discord copied to cliboard fully made by ! EMPLIC 9999 (use reach sword for better experience)"
    wait(5)
    local SongID = "7425210788"
    msg:Destroy()
